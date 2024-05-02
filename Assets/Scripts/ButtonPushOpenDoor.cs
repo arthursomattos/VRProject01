@@ -17,12 +17,7 @@ public class ButtonPushOpenDoor : MonoBehaviour
     public void ToggleDoorOpen()
     {
         bool isOpen = animator.GetBool(boolName);
+        AudioManager.instance.Play("Door");
         animator.SetBool(boolName, !isOpen);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -32,12 +32,14 @@ public class Pistol : MonoBehaviour
 
     public void StartShoot()
     {
+        AudioManager.instance.Play("Pistol");
         shootParticle.Play();
         rayActivate = true;
     }
 
     public void StopShoot()
     {
+        AudioManager.instance.Stop("Pistol");
         shootParticle.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
         rayActivate = false;
     }
