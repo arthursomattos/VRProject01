@@ -3828,7 +3828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2e38c87391db8d43adf552112172262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handType: 1
+  handType: 0
   root: {fileID: 1012355674}
   animator: {fileID: 1012355676}
   fingerBones:
@@ -11861,6 +11861,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3170018507178749743, guid: b7ee10ba487867d47a2942e352102583, type: 3}
+    - {fileID: 1781349661939025335, guid: b7ee10ba487867d47a2942e352102583, type: 3}
+    - {fileID: 4765741913107731269, guid: b7ee10ba487867d47a2942e352102583, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
